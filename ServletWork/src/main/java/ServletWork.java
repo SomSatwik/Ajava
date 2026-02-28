@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/Task1Servlet")
-public class Task1Servlet extends HttpServlet {
+public class ServletWork extends HttpServlet {
 
     // Common method to handle both GET and POST requests
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
