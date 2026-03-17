@@ -1,0 +1,24 @@
+# Build output
+target/
+
+# IntelliJ files
+.idea/
+*.iml
+*.xml~
+
+# Smart Tomcat config
+.smarttomcat/
+
+# Compiled classes
+*.class
+
+# WAR files
+*.war
+*.jar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
