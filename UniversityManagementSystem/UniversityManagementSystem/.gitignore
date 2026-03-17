@@ -1,0 +1,11 @@
+target/
+.idea/
+.smarttomcat/
+*.iml
+*.war
+*.class
+*.jar
+*.log
+.DS_Store
+src/
+pom.xml
