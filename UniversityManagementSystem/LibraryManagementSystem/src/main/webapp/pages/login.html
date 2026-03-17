@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BiblioX — Login</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="grid-bg"></div>
+<div class="login-glow login-glow-1"></div>
+<div class="login-glow login-glow-2"></div>
+<div class="login-bg-text">BIBLIOX</div>
+
+<div class="login-page">
+  <div class="login-card fade-up">
+    <div class="login-logo">BiblioX</div>
+    <div class="login-tagline">Library Management System</div>
+
+    <%
+      String error = request.getParameter("error");
+      if ("1".equals(error)) {
+    %>
+    <div class="alert alert-danger" data-autodismiss>
+      ✕ &nbsp; Invalid email or password. Try again.
+    </div>
+    <% } %>
+
+    <form method="POST" action="login">
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input type="email" name="email" class="form-input"
+               placeholder="you@bibliox.com" required autofocus/>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Password</label>
+        <input type="password" name="password" class="form-input"
+               placeholder="••••••••" required/>
+      </div>
+      <button type="submit" class="btn btn-accent" style="width:100%;justify-content:center;margin-top:8px;">
+        Sign In →
+      </button>
+    </form>
+
+    <div class="login-divider"></div>
+    <div class="login-hint">
+      superadmin@bibliox.com / admin123<br/>
+      admin@bibliox.com / admin123<br/>
+      student@bibliox.com / student123
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
