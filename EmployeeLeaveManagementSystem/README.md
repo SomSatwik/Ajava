@@ -36,28 +36,6 @@
 
 ---
 
-## 📸 UI Preview
-
-<div align="center">
-
-| Login Page | Dashboard |
-|-----------|-----------|
-| ![Login](https://via.placeholder.com/560x340/020209/7c3aed?text=🔐+Login+·+Split+Screen+%2B+Glitch+Art) | ![Dashboard](https://via.placeholder.com/560x340/020209/06b6d4?text=🏠+Dashboard+·+Stats+%2B+Timeline) |
-
-| Apply Leave | Admin Panel |
-|------------|-------------|
-| ![Apply](https://via.placeholder.com/560x340/020209/10b981?text=📝+Apply+Leave+·+Step+Form+%2B+Calendar) | ![Admin](https://via.placeholder.com/560x340/020209/f43f5e?text=⚙️+Admin+Panel+·+Approve+%2F+Reject) |
-
-| My Leaves | Register |
-|----------|----------|
-| ![Leaves](https://via.placeholder.com/560x340/020209/f59e0b?text=📋+My+Leaves+·+Floating+Table) | ![Register](https://via.placeholder.com/560x340/020209/a78bfa?text=👤+Register+·+Password+Strength) |
-
-> 💡 Replace placeholders above with actual screenshots after running the app
-
-</div>
-
----
-
 ## ✨ Features
 
 <div align="center">
