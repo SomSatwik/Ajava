@@ -32,22 +32,6 @@
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Home Page | Product Listing |
-|-----------|----------------|
-| ![Home](https://via.placeholder.com/500x300/0d0d1a/7c3aed?text=🏠+Home+Page) | ![Products](https://via.placeholder.com/500x300/0d0d1a/06b6d4?text=🛍️+Products) |
-
-| Shopping Cart | Admin Panel |
-|--------------|-------------|
-| ![Cart](https://via.placeholder.com/500x300/0d0d1a/10b981?text=🛒+Cart) | ![Admin](https://via.placeholder.com/500x300/0d0d1a/f43f5e?text=⚙️+Admin) |
-
-</div>
-
----
-
 ## ✨ Features
 
 <div align="center">
