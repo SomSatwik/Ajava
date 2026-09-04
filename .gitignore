@@ -1,22 +1,4 @@
-# Build output
-target/
-*.class
-*.war
-*.jar
 
-# IntelliJ
-.idea/
-*.iml
+ajava/LibraryManagementSystem.zip
+*.zip
 
-# Smart Tomcat
-.smarttomcat/
-
-# MySQL connector source (huge, unnecessary)
-**/lib/mysql-connector-j*/
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db

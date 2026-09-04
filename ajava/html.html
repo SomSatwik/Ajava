@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Table Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .image-container {
+            border: 2px dashed #ccc;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            background-color: #f9f9f9;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image and Table Layout</h1>
+    
+    <h2>Image Placeholder</h2>
+    <div class="image-container">
+        <p>Insert image here</p>
+    </div>
+
+    <h2>Table with Rowspan and Colspan</h2>
+    <table>
+        <tr>
+            <th colspan="2">Header (2 columns)</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td rowspan="2">Spans 2 rows</td>
+        </tr>
+        <tr>
+            <td colspan="2">Row 2, Spans 2 columns</td>
+        </tr>
+        <tr>
+            <td>Row 3, Col 1</td>
+            <td>Row 3, Col 2</td>
+            <td>Row 3, Col 3</td>
+        </tr>
+    </table>
+</body>
+</html>

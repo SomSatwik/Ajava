@@ -1,4 +1,0 @@
-com\unimanage\entity\Student.class
-com\unimanage\servlet\StudentServlet.class
-com\unimanage\util\HibernateUtil.class
-com\unimanage\dao\StudentDAO.class
